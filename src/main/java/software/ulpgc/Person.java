@@ -19,10 +19,6 @@ public class Person {
     private int ToYears(long days) {
         return (int) (days/ DAYS_PER_YEAR);
     }
-    private int ToYears2(long days) {
-        return (int) (days/365);
-    }
-
 
     @Override
     public String toString() {
